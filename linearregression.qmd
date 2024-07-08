@@ -10,12 +10,11 @@ What is Linear Regression?
 Linear regression predicts the relationship between two variables by assuming they have a straight-line connection. It finds the best line that minimizes the differences between predicted and actual values. Used in fields like economics and finance, it helps analyze and forecast data trends. Linear regression can also involve several variables (multiple linear regression) or be adapted for yes/no questions (logistic regression).
 
 ```{r}
- #|label: load-packages
 library(ggplot2)
 ```
 
 ```{r}
- #| label: scatterplot
+
 ggplot(mpg,aes(x=hwy, y=cty, color = cyl))+
   geom_point(alpha =0.5, size= 2)+
   scale_color_viridis_c()+
