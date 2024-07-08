@@ -1,14 +1,27 @@
 project:
   type: website
+  
+  
 
 website:
-  page-navigation: true
   title: "akmsquarto"
+  reader-mode: true
+  page-navigation: true
   
   page-footer:
     center: "Built with ❤️ and powered by Quarto"
     left: "&copy; CC-By CWB, 2024"
-  
+    
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - sidebar:tutorials
+      - sidebar:howto
+      - sidebar:fundamentals
+      - sidebar:reference
   
   sidebar:
     logo: "images/cwd/1.png"

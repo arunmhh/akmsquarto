@@ -22,9 +22,7 @@ Linear regression is a quiet and the simplest statistical regression technique u
 
 Simple Linear Regression The graph above presents the linear relationship between the output(y) and predictor(X) variables. The blue line is referred to as the best-fit straight line. Based on the given data points, we attempt to plot a line that fits the points the best.
 
-\<div style="text-align: center;"\> 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cXRNVrUAOl8?si=mOcS2sbKgtCehmjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+\<div style="text-align: center;"\> <iframe width="560" height="315" src="https://www.youtube.com/embed/cXRNVrUAOl8?si=mOcS2sbKgtCehmjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
 
 \</div\>
 
