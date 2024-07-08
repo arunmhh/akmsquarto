@@ -11,7 +11,7 @@ website:
   body-header: | 
   This page brought to you by <https://example.com>
 margin-header: |
-  ![Logo image](/imges/2.png)
+  ![Logo image](/images/2.png)
   
   page-footer:
     center: "Built with ❤️ and powered by Quarto"
