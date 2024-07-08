@@ -2,12 +2,27 @@ project:
   type: website
 
 website:
+  page-navigation: true
   title: "akmsquarto"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  
+  page-footer:
+    center: "Built with ❤️ and powered by Quarto"
+    left: "&copy; CC-By CWB, 2024"
+  
+  
+  sidebar:
+    logo: "images/cwd/1.png"
+    pinned: true
+    align: center
+    tools: 
+      - icon: globe
+        href: https://github.com/arunmhh
+        text: "arunmhh"
+      - icon: github
+        href: https://github.com/arunmhh/akmsquarto
+        text: "Quartoarun"
+             
+
 
 format:
   html:
