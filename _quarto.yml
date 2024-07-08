@@ -8,6 +8,11 @@ website:
   reader-mode: true
   page-navigation: true
   
+  body-header: | 
+  This page brought to you by <https://example.com>
+margin-header: |
+  ![Logo image](/imges/2.png)
+  
   page-footer:
     center: "Built with ❤️ and powered by Quarto"
     left: "&copy; CC-By CWB, 2024"
@@ -22,7 +27,9 @@ website:
       - sidebar:howto
       - sidebar:fundamentals
       - sidebar:reference
-  
+  #######################
+  #####sidebar###########
+  #######################
   sidebar:
     logo: "images/cwd/1.png"
     pinned: true
