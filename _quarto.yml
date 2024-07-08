@@ -8,11 +8,6 @@ website:
   reader-mode: true
   page-navigation: true
   
-  body-header: | 
-  This page brought to you by <https://example.com>
-margin-header: |
-  ![Logo image](/images/2.png)
-  
   page-footer:
     center: "Built with ❤️ and powered by Quarto"
     left: "&copy; CC-By CWB, 2024"
