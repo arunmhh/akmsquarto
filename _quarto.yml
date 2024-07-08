@@ -21,6 +21,24 @@ website:
       - icon: github
         href: https://github.com/arunmhh/akmsquarto
         text: "Quartoarun"
+    
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Quartoinformation
+      - href: linearregression.qmd
+        text: linear regression
+      - section: quarto-workflows/index.qmd
+        contents: 
+          - quarto-workflows/browser.md
+          - quarto-workflows/rstudio.qmd
+          - quarto-workflows/jupyter.md 
+      - learning-more.qmd
+      - href: transition-from-rmarkdown.qmd
+        text: Transition from Rmd
+
              
 
 
