@@ -15,6 +15,7 @@ library(sjPlot)
 library(dlookr)
 library(emmeans)
 library(see)
+library(patchwork)
 ```
 
 ```{r}
@@ -32,11 +33,9 @@ make the linear model of the following data
 m <- lm(formula = wage ~ age, data = d)
 ```
 
-visualize the model
 
-```{r}
-check_model(m)
-```
+
+
 
 ```{r}
 check_normality(m)
