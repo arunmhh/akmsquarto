@@ -46,6 +46,8 @@ website:
         text: Quartoinformation
       - href: linearregression.qmd
         text: linear regression
+      - href: plots
+        text: plots.qmd
       - section: quarto-workflows/index.qmd
         contents: 
           - quarto-workflows/browser.md
@@ -62,9 +64,12 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
+      dark: [cosmo, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
     toc: true
-
+    
 editor: visual
 
