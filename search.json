@@ -7,6 +7,13 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "plots.html",
+    "href": "plots.html",
+    "title": "plot",
+    "section": "",
+    "text": "Code\nplot(pressure)\n\n\n\n\n\n\n\n\n\n\n\nCode\n#| label: fig-scatterplot\n#| fig-cap: \"City and highway mileage for 38 popular models of cars.\"\n#| fig-alt: \"Scatterplot of city vs. highway mileage for cars, where points are colored by the number of cylinders. The plot displays a positive, linear, and strong relationship between city and highway mileage, and mileage increases as the number of cylinders decreases.\"\n#| fig-width: 6\n#| fig-height: 3.5"
+  },
+  {
     "objectID": "linearregression.html",
     "href": "linearregression.html",
     "title": "linear regression",
