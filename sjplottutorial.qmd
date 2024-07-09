@@ -15,7 +15,8 @@ library(sjPlot)
 library(dlookr)
 library(emmeans)
 library(see)
-library(patchwork)
+base::library(patchwork)
+library(effects)
 ```
 
 ```{r}
