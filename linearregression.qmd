@@ -214,3 +214,6 @@ Underfitting is not often discussed as often as overfitting is discussed. When t
 When a model has high bias and low variance it ends up not generalizing the data and causing underfitting. It is unable to find the hidden underlying patterns in the data. This usually leads to low training accuracy and very low test accuracy. The ways to prevent underfitting are stated below,
 
 Increase the model complexity Increase the number of features in the training data Remove noise from the data.
+
+logistic regression
+need to learn
