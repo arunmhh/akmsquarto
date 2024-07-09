@@ -6,7 +6,7 @@ format:
 ---
 
 ```{r, echo=FALSE}
-#| load.package
+
 library(tidyverse)
 library(ggplot2)
 library(ISLR)
