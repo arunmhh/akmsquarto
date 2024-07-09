@@ -46,8 +46,11 @@ website:
         text: Quartoinformation
       - href: linearregression.qmd
         text: linear regression
-      - href: plots
-        text: plots.qmd
+      - href: plots.qmd
+        text: plots
+      - href: sjplottutorial.qmd
+        text: sjplot
+      
       - section: quarto-workflows/index.qmd
         contents: 
           - quarto-workflows/browser.md
