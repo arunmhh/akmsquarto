@@ -1,6 +1,8 @@
 ---
 title: "linear regression"
-
+format:
+  html:
+    code-fold: true
 ---
 
 What is Linear Regression?
