@@ -65,3 +65,7 @@ emmeans is more powerfull package that shows the more interactions.
 ```{r}
 emmeans(m, ~ age, at = list(age = c(40,50,60)))
 ```
+```{r}
+predict(m, data.frame(age = c(40,50,60)))
+```
+
