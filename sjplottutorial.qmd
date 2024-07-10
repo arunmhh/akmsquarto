@@ -2,10 +2,10 @@
 title: "sjplot"
 format: 
   html: 
-    code-fold: true
+    code-fold: false
 ---
 
-```{r, message=FALSE}
+```{r, message=FALSE, echo=FALSE}
 
 library(tidyverse)
 library(ggplot2)
