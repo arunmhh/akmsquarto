@@ -16,7 +16,7 @@ library(dlookr)
 library(emmeans)
 library(see)
 base::library(patchwork)
-library(effects)
+base::library(effects)
 ```
 
 ```{r}
@@ -35,6 +35,9 @@ m <- lm(formula = wage ~ age, data = d)
 ```
 
 
+```{r}
+check_model(m)
+```
 
 
 
