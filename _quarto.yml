@@ -27,7 +27,7 @@ website:
   #####sidebar###########
   #######################
   sidebar:
-    logo: "images/cwd/1.png"
+    logo: "images/cwd/2.png"
     pinned: true
     align: center
     tools: 
