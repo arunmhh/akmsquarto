@@ -5,7 +5,7 @@ format:
     code-fold: true
 ---
 
-```{r, echo=FALSE}
+```{r, message=FALSE}
 
 library(tidyverse)
 library(ggplot2)
