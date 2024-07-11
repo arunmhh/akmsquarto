@@ -20,6 +20,7 @@ website:
       - text: "Home"
         href: index.qmd
       - sidebar:tutorials
+      - href: data/linearregression.qmd
       - sidebar:howto
       - sidebar:fundamentals
       - sidebar:reference
