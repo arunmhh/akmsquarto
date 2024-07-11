@@ -42,13 +42,13 @@ website:
     search: true
     collapse-level: 1
     contents:
-      - href: index.qmd
+      - href: data/index.qmd
         text: Quartoinformation
-      - href: linearregression.qmd
+      - href: data/linearregression.qmd
         text: linear regression
-      - href: plots.qmd
+      - href: data/plots.qmd
         text: plots
-      - href: sjplottutorial.qmd
+      - href: data/sjplottutorial.qmd
         text: sjplot
       
       - section: quarto-workflows/index.qmd
