@@ -37,7 +37,7 @@ We'll start off from the browser so you don't need to install any additional sof
 summary(cars)
 ```
 
-```{}
+```         
 ```
 
 ```{r}
