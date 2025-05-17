@@ -61,7 +61,7 @@ lifeexp
 lifeexp %>% 
   dplyr::filter(country %in% c("India", "Canada", "Germany")) %>%
   ggplot(aes(x = year, y = lifeExp, color = country)) +
-  geom_line(size = 1.2) +
+  geom_line(linewidth = 1.2) +
   labs(
     title = "Life Expectancy Over Time",
     x = "Year",
